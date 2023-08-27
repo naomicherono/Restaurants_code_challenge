@@ -8,3 +8,9 @@ if __name__ == "__main__":
     customer2 = Customer("Leonard", "Mutai")
 
 
+    # Creating different restaurants 
+    restaurant1 = Restaurant("Restaurant A")
+    restaurant2 = Restaurant("Restaurant B")
+
+
+
