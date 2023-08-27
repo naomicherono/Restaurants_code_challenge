@@ -12,5 +12,11 @@ if __name__ == "__main__":
     restaurant1 = Restaurant("Restaurant A")
     restaurant2 = Restaurant("Restaurant B")
 
+     # Create reviews with customers remarks
+    review1 = Review(customer1, restaurant1, 4)
+    review2 = Review(customer2, restaurant1, 5)
+    review3 = Review(customer1, restaurant2, 3)
+
+
 
 
