@@ -1,9 +1,12 @@
-Code Challenge - Restaurants Reviews
-Author
+## Code Challenge - Restaurants Reviews
+### Author
+
 NAOMI CHERONO
-Description:
+
+### Description:
 This undertaking is a component of a coding challenge which centers around crafting a domain similar to Yelp. It encompasses three key models: Restaurant, Customer, and Review. The primary objective is to define connections among these models and execute diverse techniques to engage with them.
-Table of Contents
+
+### Table of Contents
 Introduction
 Getting Started
 Usage
@@ -11,7 +14,8 @@ Class Descriptions
 Dependencies
 Contributing
 License
-Introduction
+
+### Introduction
 Within this project, we construct a basic model for a system dedicated to reviewing restaurants. The central entities encompass:
 
     customer: Represents an individual who can compose reviews.
@@ -20,10 +24,10 @@ Within this project, we construct a basic model for a system dedicated to review
 
 Every entity incorporates distinct characteristics and functions to generate, handle, and engage with occurrences..
 
-Technologies Used
+### Technologies Used
 * Python: Python is a popular high-level programming language known for its simplicity, readability, and versatility.
 
-Installation
+### Installation
 To get started with Toy Problem, follow these steps:
 
 Clone the repository to your local machine using the following command:
@@ -37,10 +41,10 @@ Install the required dependencies:
 
 * pipenv --python 3.10 * pipenv install * pipenv shell
 
-Usage
+### Usage
 The project demonstrates how to establish relationships between classes, create instances, and use the provided methods for interacting with those instances.
 
-Class Descriptions
+### Class Descriptions
 Customer
 * Represents a customer. * Attributes: - given_name: The customer's given name. - family_name: The customer's family name. - reviews: A list of reviews written by the customer. * Methods: - get_given_name(): Get the customer's given name. - get_family_name(): Get the customer's family name. - full_name(): Get the full name of the customer. - add_review(review): Associate a review with this customer. - get_reviews(): Get all reviews associated with this customer.
 
@@ -50,13 +54,13 @@ Restaurant
 Review
 - Represents a review. - Attributes: - customer: The customer who wrote the review. - restaurant: The restaurant being reviewed. - rating: The rating given in the review. * Methods: - get_rating(): Get the rating of the review. - get_customer(): Get the customer associated with the review. - get_restaurant(): Get the restaurant associated with the review.
 
-Dependencies
+### Dependencies
 * Python 3.9 or higher is recommended for this program as it was developed in version 3.8 but should work on any newer
 
-Contributing
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests
 
-License
+### License
 MIT License
 
 Copyright (c) 2023 Naomi Cherono
