@@ -28,8 +28,7 @@ To get started with Toy Problem, follow these steps:
 
 Clone the repository to your local machine using the following command:
 
-* git clone git@github.com:RotichKipkoech/Restaurant.git
-
+https://github.com/naomicherono/Restaurants_code_challenge
 Navigate to the project directory:
 
 * cd Restaurant
